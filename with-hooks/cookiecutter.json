@@ -1,0 +1,13 @@
+{
+    "project_name": "asdf",
+    "author": "Anonymous",
+    "__project_kebab_case": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "__project_snake_case": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "__template": "https://github.com/dbrtly/cookiecutter-website-simple.git",
+    "__directory": "foo",
+    "__checkout": "<__checkout>",
+    "__prompts__": {
+        "project_name": "Select your package name",
+        "author": "Select your author name"
+    }
+}
