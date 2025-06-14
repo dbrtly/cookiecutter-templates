@@ -1,0 +1,14 @@
+{
+  "templates": {
+    "project-1": {
+      "path": "./bar",
+      "title": "Project Bar",
+      "description": "A cookiecutter template for a project"
+    },
+    "package": {
+      "path": "./with-hooks",
+      "title": "With Hooks",
+      "description": "A cookiecutter template with hooks"
+    }
+  }
+}
