@@ -1,0 +1,14 @@
+{
+    "cookiecutter": {
+        "project_name": "Cookiecutter Website Simple",
+        "author": "Anonymous",
+        "__project_kebab_case": "{{ cookiecutter.__project_kebab_case }}",
+        "__project_snake_case": "{{ cookiecutter.__project_snake_case }}",
+        "__template": "https://github.com/dbrtly/cookiecutter-website-simple.git",
+        "_checkout": "v0.1.0"
+    },
+    "_cookiecutter": {
+        "project_name": "Cookiecutter Website Simple",
+        "author": "Anonymous"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "project_name": "asdf",
+  "project_dir": "target/transforms",
+  "author": "Anonymous",
+  "__project_kebab_case": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "__project_snake_case": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "__templates_uri": "https://github.com/dbrtly/cookiecutter-templates.git",
+  "__template_dir": "with-hooks",
+  "__checkout": "{{ cookiecutter.__template_dir }}/v0.1.0",
+  "__prompts__": {
+    "project_name": "Select your package name",
+    "project_dir": "Select a subdirectory for your project (relative to curreent working directory)",
+    "author": "Select your author name"
+  }
+}

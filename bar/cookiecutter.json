@@ -1,0 +1,6 @@
+{
+    "project_name": "Cookiecutter Website Simple",
+    "author": "Anonymous",
+    "__project_kebab_case": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "__project_snake_case": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+}
